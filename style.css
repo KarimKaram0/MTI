@@ -182,6 +182,14 @@ color: white;
     transform: scale(1.1);
     
 }
+@media(max-width:1500px)
+{
+    .list
+    {
+        display: none;
+    }
+}
+
 
 @media(max-width:1200px)
 {
@@ -385,5 +393,35 @@ color: white;
     }
     .nav-bo{
         width: 100%;
+    }
+}
+
+
+
+@media(max-width:500px)
+{
+    .content
+    {
+        width: 400px;
+    }
+    .second-nav .second-nav-box .logo a img
+{
+    width: 100px;
+    
+}
+    .content .img-box 
+    
+    {
+        width: 100%;
+    }
+    .nav-box{
+        width: 100%;
+    }
+    .list
+    {
+        display: flex;
+    }
+    .nav-info , .nav-link{
+        display: none;
     }
 }
