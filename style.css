@@ -425,3 +425,61 @@ color: white;
         display: none;
     }
 }
+
+
+@media(max-width:400px)
+{
+    .content
+    {
+        width: 350px;
+    }
+    .second-nav .second-nav-box .logo a img
+{
+    width: 100px;
+    
+}
+    .content .img-box 
+    
+    {
+        width: 100%;
+    }
+    .nav-box{
+        width: 100%;
+    }
+    .list
+    {
+        display: flex;
+    }
+    .nav-info , .nav-link{
+        display: none;
+    }
+}
+
+
+@media(max-width:350px)
+{
+    .content
+    {
+        width: 330px;
+    }
+    .second-nav .second-nav-box .logo a img
+{
+    width: 100px;
+    
+}
+    .content .img-box 
+    
+    {
+        width: 100%;
+    }
+    .nav-box{
+        width: 100%;
+    }
+    .list
+    {
+        display: flex;
+    }
+    .nav-info , .nav-link{
+        display: none;
+    }
+}
